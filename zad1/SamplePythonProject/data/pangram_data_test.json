@@ -1,0 +1,14 @@
+{
+  "test1": { "input": "QWERTYUIOPSADFGHJKLZXCVBNM", "output": true },
+  "test2": { "input": "mnbvcxzpoiuytrewqlkjhgfdsa", "output": true },
+  "test3": { "input": "LpMkOnJiBhUvGyCfTxDrZsEaWq", "output": true },
+  "test4": { "input": "QWERTYUIOPS7777GHJKLZXCVBNM", "output": false },
+  "test5": { "input": "QWERTYUIOPSAD7777FGHJKLZXCVBNM", "output": true },
+  "test6": { "input": "IOPSADFGH", "output": false },
+  "test7": { "input": "sdfgh", "output": false },
+  "test8": { "input": 567, "exception": "Typ musi miec warosc String"},
+  "test9": { "input": [567, "gh"], "exception": "Typ musi miec warosc String"},
+  "test10": { "input": [], "exception": "Typ musi miec warosc String"},
+  "test11": { "input": {}, "exception": "Typ musi miec warosc String"},
+  "test12": { "input": 56.89, "exception": "Typ musi miec warosc String"}
+}
